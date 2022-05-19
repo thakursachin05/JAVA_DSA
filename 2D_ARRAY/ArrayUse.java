@@ -4,7 +4,7 @@ public class ArrayUse {
 	public static int[][] takeInput(int n,int m){
 		Scanner s = new Scanner(System.in);
 		int arr[][] = new int[n][m];
-		for(int  i=0;i<n;i++) {
+		for(int i=0;i<n;i++) {
 			for(int j=0;j<m;j++) {
 				arr[i][j]= s.nextInt();
 			}
@@ -14,7 +14,7 @@ public class ArrayUse {
 	}
 	public static void print(int n,int m,int arr[][]){
 	
-		for(int  i=0;i<n;i++) {
+		for(int i=0;i<n;i++) {
 			for(int j=0;j<m;j++) {
 				System.out.print(arr[i][j]);
 			}
